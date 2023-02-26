@@ -103,12 +103,12 @@ class _ProfileState extends State<Profile> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
-                            CircleAvatar(
+                            const CircleAvatar(
                               radius: 50,
                               backgroundColor: PalleteColor.primaryPurple,
                               child: CircleAvatar(
                                 backgroundImage: NetworkImage(
-                                  user.photoURL!,
+                                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxGyG_xx1cmSihd0jd_bHI6BjwXvlPbW-wiQ&usqp=CAU',
                                 ),
                                 radius: 45,
                               ),
