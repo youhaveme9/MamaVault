@@ -3,7 +3,6 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:interrupt/screens/docs_gallery.dart';
 import 'package:interrupt/screens/settings.dart';
 import 'package:interrupt/screens/share.dart';
-import 'package:interrupt/screens/upload_document.dart';
 import 'package:provider/provider.dart';
 import '../provider/memory_timeline.dart';
 import '../provider/user_provider.dart';
@@ -72,7 +71,7 @@ class _BottomNavState extends State<BottomNav> {
           items: const [
             BottomNavigationBarItem(
               label: 'Home',
-              icon: Icon(FontAwesomeIcons.atom),
+              icon: Icon(FontAwesomeIcons.home),
             ),
             BottomNavigationBarItem(
               label: 'Memories',

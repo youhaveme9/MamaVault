@@ -87,12 +87,12 @@ class _DashboardScreenState extends State<DashboardScreen> {
                           ),
                         );
                       },
-                      child: CircleAvatar(
+                      child: const CircleAvatar(
                         radius: 30,
                         backgroundColor: PalleteColor.primaryPurple,
                         child: CircleAvatar(
                           backgroundImage: NetworkImage(
-                            user.photoURL!,
+                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxGyG_xx1cmSihd0jd_bHI6BjwXvlPbW-wiQ&usqp=CAU',
                           ),
                           radius: 27,
                         ),

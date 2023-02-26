@@ -6,7 +6,9 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:interrupt/config/color_pallete.dart';
 
 import 'package:http/http.dart' as http;
+import 'package:provider/provider.dart';
 
+import '../provider/expire_provider.dart';
 
 class ExpireLink extends StatefulWidget {
   final String sharedDocID;
@@ -169,7 +171,10 @@ class _ExpireLinkState extends State<ExpireLink> {
                 child: InkWell(
                   onTap: () {
                     _showMyDialogForDeleteLinks(widget.sharedDocID, user.uid)
-                        .then((value) {
+                        .then((value) async {
+                      ExpireProvider sharelinkProvider =
+                          Provider.of(context, listen: false);
+                      await sharelinkProvider.fetchExpiryDetails();
                       setState(() {});
                       var snackBar = const SnackBar(
                           content: Text('Link Deleted Successfully'));
