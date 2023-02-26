@@ -9,6 +9,8 @@ Mama vault is a utility management application for pregnant women. It helps you 
 + MamaVault backend [Link](https://github.com/Rajdip019/mamavault-backend-go)
 + MamaVault web-app [Link](https://github.com/Rajdip019/mamavault-webapp)
 
+Check the contributors [here](https://github.com/Roshaen/MamaVault/blob/master/CONTRIBUTORS.md)
+
 ## Snapshots 📸
 + ### Responsive and user-friendly UI
 
