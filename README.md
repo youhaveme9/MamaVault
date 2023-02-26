@@ -1,16 +1,31 @@
-# MamaVault
+## What is Mama Vault? 🤔
+Mama vault is a utility management application for pregnant women. It helps you manage your documents, reach your caring ones in one tap, and keep your memories safe.
 
-A new Flutter project.
 
-## Getting Started
+## Tech Stack 💻
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 
-This project is a starting point for a Flutter application.
+## Snapshots 📸
++ ### Responsive and user friendly UI
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://user-images.githubusercontent.com/93156825/221395164-c7fedf4e-d107-4b88-b42d-5ab232aedbfc.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
++ ### A personaized user dashboard is provided where an user can add their personal as well as medical records
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://user-images.githubusercontent.com/93156825/221397175-1f325f26-b80d-4eab-a6f8-253eb8b848ac.png)
+
++ ### A user can share this document to through a dynamically generated QR code or an link.
+### The shared link will be active for a time period decided by the user itself. Apart from this the user can also delete the link whenever she wants.
+
+![image](https://user-images.githubusercontent.com/93156825/221397379-a9e695aa-43fa-44a0-be70-8674d3ecb641.png)
+
++ ### One of the main and the higlighting feature of this application is Panic Button.
+In case of a really needy solution, the user can now reach to her caring ones at one click!. To use this feature, the user have to do a basic setup by adding three numbers of her choice (for once only after installation and can be edit later).
+
+![image](https://user-images.githubusercontent.com/93156825/221397561-6d06af24-b638-4438-ad92-4355b3687b68.png)
+
+### Now clicking on the Panic Button will send a text message with location link as well as a voice call to all the three person she added earlier.
+
+![image](https://user-images.githubusercontent.com/93156825/221397886-8e7d3ad0-03a8-4689-b270-7a2e4debf3de.png)
+
+----------
