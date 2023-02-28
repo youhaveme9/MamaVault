@@ -6,7 +6,6 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:interrupt/config/UI_constraints.dart';
 import 'package:interrupt/config/color_pallete.dart';
-
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class Profile extends StatefulWidget {

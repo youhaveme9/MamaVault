@@ -53,10 +53,11 @@ class _ExpireLinkState extends State<ExpireLink> {
         );
         return response.statusCode;
       } catch (e) {
-        print(e.toString());
+        return;
       }
     }
 
+    // ignore: no_leading_underscores_for_local_identifiers
     Future<void> _showMyDialogForDeleteLinks(
         String sharedDocID, String uid) async {
       return showDialog<void>(
@@ -83,9 +84,7 @@ class _ExpireLinkState extends State<ExpireLink> {
                   style: TextStyle(color: Colors.red),
                 ),
                 onPressed: () {
-                  deleteSharedDoc(sharedDocID, uid).then((value) {
-                    print(value);
-                  });
+                  deleteSharedDoc(sharedDocID, uid).then((value) {});
                   Navigator.of(context).pop();
                 },
               ),
@@ -178,7 +177,9 @@ class _ExpireLinkState extends State<ExpireLink> {
                       setState(() {});
                       var snackBar = const SnackBar(
                           content: Text('Link Deleted Successfully'));
-                      ScaffoldMessenger.of(context).showSnackBar(snackBar);
+                      if (mounted) {
+                        ScaffoldMessenger.of(context).showSnackBar(snackBar);
+                      }
                     });
                   },
                   child: Image.asset('assets/delIcon.png'),

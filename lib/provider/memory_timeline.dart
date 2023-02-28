@@ -31,7 +31,6 @@ class _MemoryTimelineState extends State<MemoryTimeline> {
   @override
   Widget build(BuildContext context) {
     List allUserMemories = Provider.of<MemoryProvider>(context).getUserMemories;
-    print(allUserMemories);
     return SafeArea(
       child: Scaffold(
         floatingActionButton: FloatingActionButton(

@@ -168,7 +168,7 @@ class _AddDetailsScreenState extends State<AddDetailsScreen> {
                     lastDate: DateTime(2100),
                     dateLabelText: 'Date',
                     onChanged: (val) {},
-                    onSaved: (val) => print(val),
+                    onSaved: (val) {},
                     validator: (value) {
                       if (value!.isEmpty) {
                         return 'Date is required';
@@ -182,7 +182,6 @@ class _AddDetailsScreenState extends State<AddDetailsScreen> {
                       buttonTitle: 'Next',
                       onPressed: () {
                         if (formKey.currentState!.validate()) {
-                          print(dateController.text);
                           addDetailsUser();
                           Navigator.push(
                             context,

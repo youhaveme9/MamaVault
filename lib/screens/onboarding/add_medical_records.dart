@@ -61,7 +61,7 @@ class _AddMedicalRecordsScreenState extends State<AddMedicalRecordsScreen> {
       };
       await finalUser.update(data);
     } catch (e) {
-      print(e.toString());
+      return;
     }
   }
 
@@ -261,7 +261,6 @@ class _AddMedicalRecordsScreenState extends State<AddMedicalRecordsScreen> {
                                 setState(() {
                                   _diseasesValues = _diseasesValues;
                                   _diseaseSelected = _diseaseSelected;
-                                  print(_diseasesValues);
                                 });
                               },
                             ),
@@ -294,7 +293,6 @@ class _AddMedicalRecordsScreenState extends State<AddMedicalRecordsScreen> {
                                 setState(() {
                                   _medicineValues = _medicineValues;
                                   _medicineSelected = _medicineSelected;
-                                  print(_medicineValues);
                                 });
                               },
                             ),
@@ -327,7 +325,6 @@ class _AddMedicalRecordsScreenState extends State<AddMedicalRecordsScreen> {
                                 setState(() {
                                   _allergyValues = _allergyValues;
                                   _allergySelected = _allergySelected;
-                                  print(_allergyValues);
                                 });
                               },
                             ),

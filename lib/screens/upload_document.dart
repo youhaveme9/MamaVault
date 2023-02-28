@@ -56,7 +56,6 @@ class _DocumentUploadState extends State<DocumentUpload> {
       fileList = files;
       isSelected = false;
       fileExt = fileDetails.extension!;
-      print(fileExt);
     });
   }
 
@@ -282,7 +281,6 @@ class _DocumentUploadState extends State<DocumentUpload> {
                     }).toList(),
                     onChanged: (value) {
                       docType = value!;
-                      print(docType);
                     },
                     validator: (value) {
                       if (docType == '') {

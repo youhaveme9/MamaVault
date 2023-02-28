@@ -71,7 +71,7 @@ class _BottomNavState extends State<BottomNav> {
           items: const [
             BottomNavigationBarItem(
               label: 'Home',
-              icon: Icon(FontAwesomeIcons.home),
+              icon: Icon(FontAwesomeIcons.house),
             ),
             BottomNavigationBarItem(
               label: 'Memories',

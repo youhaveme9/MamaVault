@@ -159,8 +159,6 @@ class _DocListScreenState extends State<DocListScreen> {
       }
     }).toList();
 
-    print(selectedItems);
-
     return SafeArea(
       child: DefaultTabController(
         length: docCategoriesTabs.length,

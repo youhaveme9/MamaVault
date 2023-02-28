@@ -5,12 +5,16 @@ import 'package:url_launcher/url_launcher.dart';
 import '../config/color_pallete.dart';
 
 class HospitalDetailsWidget extends StatelessWidget {
-  final hospitalName;
-  final address;
-  final distance;
-  final url;
+  final String hospitalName;
+  final String address;
+  final String distance;
+  final String url;
   const HospitalDetailsWidget(
-      {super.key, this.hospitalName, this.address, this.distance, this.url});
+      {super.key,
+      required this.hospitalName,
+      required this.address,
+      required this.distance,
+      required this.url});
 
   @override
   Widget build(BuildContext context) {
