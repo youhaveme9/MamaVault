@@ -36,14 +36,16 @@ class _IndividualDocState extends State<IndividualDoc> {
     return InkWell(
       onTap: () {
         Navigator.push(
-            context,
-            CupertinoPageRoute(
-                builder: (_) => PreviewDocScreen(
-                      uploadTime: widget.docData['upload_time'],
-                      docName: widget.documentTitle,
-                      docType: widget.docData['doc_format'],
-                      docURL: widget.docData['doc_url'],
-                    )));
+          context,
+          CupertinoPageRoute(
+            builder: (_) => PreviewDocScreen(
+              uploadTime: widget.docData['upload_time'],
+              docName: widget.documentTitle,
+              docType: widget.docData['doc_format'],
+              docURL: widget.docData['doc_url'],
+            ),
+          ),
+        );
       },
       child: Container(
         width: double.infinity,
@@ -78,17 +80,19 @@ class _IndividualDocState extends State<IndividualDoc> {
               value: isIndividualSelected,
               shape: const CircleBorder(),
               onChanged: (bool? value) {
-                setState(() {
-                  value == true
-                      ? widget.selectedDocuments.add(widget.documentID)
-                      : widget.selectedDocuments.remove(widget.documentID);
-                  isIndividualSelected = value!;
-                  widget.selectedDocuments.toSet().toList();
-                  value == true
-                      ? widget.callback(
-                          widget.selectedDocuments, widget.isSelectedDoc)
-                      : widget.callback(widget.selectedDocuments, false);
-                });
+                setState(
+                  () {
+                    value == true
+                        ? widget.selectedDocuments.add(widget.documentID)
+                        : widget.selectedDocuments.remove(widget.documentID);
+                    isIndividualSelected = value!;
+                    widget.selectedDocuments.toSet().toList();
+                    value == true
+                        ? widget.callback(
+                            widget.selectedDocuments, widget.isSelectedDoc)
+                        : widget.callback(widget.selectedDocuments, false);
+                  },
+                );
               },
             ),
           ],
