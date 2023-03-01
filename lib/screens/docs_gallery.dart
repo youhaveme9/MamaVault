@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:interrupt/config/color_pallete.dart';
+import 'package:interrupt/widgets/primary_heading.dart';
 
 import '../config/UI_constraints.dart';
 import 'doc_list.dart';
@@ -30,16 +31,10 @@ class DocsGalleryScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  const SizedBox(height: 40),
+                  const SizedBox(height: 30),
                   const Align(
-                    alignment: Alignment.centerLeft,
-                    child: Text(
-                      'Docs Gallery',
-                      style:
-                          TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
-                      textAlign: TextAlign.left,
-                    ),
-                  ),
+                      alignment: Alignment.centerLeft,
+                      child: PrimaryHeading(text: "Docs Gallery")),
                   const SizedBox(height: 40),
                   GridView.builder(
                     shrinkWrap: true,

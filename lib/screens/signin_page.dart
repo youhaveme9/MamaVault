@@ -5,6 +5,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:interrupt/config/color_pallete.dart';
 import 'package:interrupt/screens/home_page.dart';
+import 'package:interrupt/widgets/primary_heading.dart';
 import 'package:interrupt/widgets/primary_icon_button.dart';
 import 'package:provider/provider.dart';
 import '../provider/google_signin.dart';
@@ -31,16 +32,7 @@ class SignInPage extends StatelessWidget {
               const SizedBox(
                 height: 10,
               ),
-              Text(
-                "Sign Up",
-                style: TextStyle(
-                  fontSize: 32,
-                  fontFamily: GoogleFonts.poppins(
-                    fontWeight: FontWeight.w800,
-                    fontSize: 32,
-                  ).fontFamily,
-                ),
-              ),
+              const PrimaryHeading(text: "Sign Up"),
               const SizedBox(
                 height: 10,
               ),

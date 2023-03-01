@@ -10,6 +10,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:interrupt/config/UI_constraints.dart';
 import 'package:interrupt/widgets/primary_button.dart';
+import 'package:interrupt/widgets/primary_heading.dart';
 
 import '../widgets/custom_text_field.dart';
 
@@ -101,17 +102,9 @@ class _MemoriesUploadState extends State<MemoriesUpload> {
               const SizedBox(
                 height: 40,
               ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  'Upload Memories',
-                  style: TextStyle(
-                    fontSize: 32,
-                    fontFamily: GoogleFonts.poppins(fontWeight: FontWeight.bold)
-                        .fontFamily,
-                  ),
-                ),
-              ),
+              const Align(
+                  alignment: Alignment.centerLeft,
+                  child: PrimaryHeading(text: "Add Memories")),
               const SizedBox(
                 height: 50,
               ),

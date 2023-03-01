@@ -10,6 +10,7 @@ import 'package:interrupt/provider/user_provider.dart';
 import 'package:interrupt/screens/Panic%20Mode/panic_mode_timer.dart';
 import 'package:interrupt/screens/profile.dart';
 import 'package:interrupt/screens/upload_document.dart';
+import 'package:interrupt/widgets/primary_heading.dart';
 import 'package:interrupt/widgets/primary_icon_button.dart';
 import 'package:provider/provider.dart';
 
@@ -65,19 +66,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Align(
-                      alignment: Alignment.centerLeft,
-                      child: Text(
-                        'Dashboard',
-                        style: TextStyle(
-                          fontSize: 32,
-                          fontFamily: GoogleFonts.poppins(
-                            fontWeight: FontWeight.bold,
-                          ).fontFamily,
-                        ),
-                        textAlign: TextAlign.left,
-                      ),
-                    ),
+                    const Align(
+                        alignment: Alignment.centerLeft,
+                        child: PrimaryHeading(text: "Dashboard")),
                     InkWell(
                       onTap: () {
                         Navigator.push(

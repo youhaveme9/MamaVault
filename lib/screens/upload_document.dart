@@ -10,6 +10,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:interrupt/config/UI_constraints.dart';
 import 'package:interrupt/widgets/primary_button.dart';
+import 'package:interrupt/widgets/primary_heading.dart';
 import 'package:provider/provider.dart';
 
 import '../config/color_pallete.dart';
@@ -129,18 +130,11 @@ class _DocumentUploadState extends State<DocumentUpload> {
                 const SizedBox(
                   height: 40,
                 ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    'Upload Document',
-                    style: TextStyle(
-                      fontSize: 32,
-                      fontFamily:
-                          GoogleFonts.poppins(fontWeight: FontWeight.bold)
-                              .fontFamily,
-                    ),
-                  ),
-                ),
+                const Align(
+                    alignment: Alignment.centerLeft,
+                    child: PrimaryHeading(
+                      text: "Upload Doc",
+                    )),
                 Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [

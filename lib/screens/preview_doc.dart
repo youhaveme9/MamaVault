@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:gallery_saver/gallery_saver.dart';
+import 'package:interrupt/widgets/primary_heading.dart';
 import 'package:pdf_render/pdf_render_widgets.dart';
 
 import '../config/UI_constraints.dart';
@@ -40,14 +41,8 @@ class _PreviewDocScreenState extends State<PreviewDocScreen> {
               children: [
                 const SizedBox(height: 40),
                 Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    widget.docName,
-                    style: const TextStyle(
-                        fontSize: 32, fontWeight: FontWeight.bold),
-                    textAlign: TextAlign.left,
-                  ),
-                ),
+                    alignment: Alignment.centerLeft,
+                    child: PrimaryHeading(text: widget.docName)),
                 Align(
                     alignment: Alignment.centerLeft,
                     child: Text('Uploaded on: ${widget.uploadTime}')),

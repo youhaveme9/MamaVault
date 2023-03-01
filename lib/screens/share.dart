@@ -9,6 +9,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:interrupt/config/UI_constraints.dart';
 import 'package:interrupt/screens/doc_list.dart';
 import 'package:interrupt/widgets/expire_link.dart';
+import 'package:interrupt/widgets/primary_heading.dart';
 import 'package:interrupt/widgets/primary_icon_button.dart';
 import 'package:provider/provider.dart';
 import 'package:http/http.dart' as http;
@@ -99,14 +100,7 @@ class _ShareState extends State<Share> {
                 const SizedBox(
                   height: 40,
                 ),
-                Text(
-                  "Share",
-                  style: TextStyle(
-                    fontSize: 32,
-                    fontFamily: GoogleFonts.poppins(fontWeight: FontWeight.bold)
-                        .fontFamily,
-                  ),
-                ),
+                const PrimaryHeading(text: "Share"),
                 const SizedBox(
                   height: 60,
                 ),
