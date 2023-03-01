@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:interrupt/screens/home_page.dart';
+import 'package:interrupt/screens/all_screens/home_page.dart';
 import 'package:interrupt/widgets/primary_button.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

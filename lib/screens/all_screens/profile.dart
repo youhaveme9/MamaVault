@@ -6,6 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:interrupt/config/UI_constraints.dart';
 import 'package:interrupt/config/color_pallete.dart';
+import 'package:interrupt/widgets/primary_heading.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class Profile extends StatefulWidget {
@@ -52,15 +53,7 @@ class _ProfileState extends State<Profile> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text(
-                            "Profile",
-                            style: TextStyle(
-                              fontSize: 32,
-                              fontFamily: GoogleFonts.poppins(
-                                      fontWeight: FontWeight.bold)
-                                  .fontFamily,
-                            ),
-                          ),
+                          const PrimaryHeading(text: "Profile"),
                           ElevatedButton.icon(
                             style: ElevatedButton.styleFrom(
                               padding: const EdgeInsets.symmetric(

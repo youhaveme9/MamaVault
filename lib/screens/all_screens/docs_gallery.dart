@@ -4,7 +4,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:interrupt/config/color_pallete.dart';
 import 'package:interrupt/widgets/primary_heading.dart';
 
-import '../config/UI_constraints.dart';
+import '../../config/UI_constraints.dart';
 import 'doc_list.dart';
 
 class DocsGalleryScreen extends StatelessWidget {

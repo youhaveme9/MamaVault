@@ -6,13 +6,12 @@ import 'package:date_time_picker/date_time_picker.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:interrupt/config/UI_constraints.dart';
 import 'package:interrupt/widgets/primary_button.dart';
 import 'package:interrupt/widgets/primary_heading.dart';
 
-import '../widgets/custom_text_field.dart';
+import '../../widgets/custom_text_field.dart';
 
 class MemoriesUpload extends StatefulWidget {
   const MemoriesUpload({super.key});

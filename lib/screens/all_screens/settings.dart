@@ -1,15 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-
 import 'package:interrupt/config/UI_constraints.dart';
 import 'package:interrupt/screens/Panic%20Mode/setup_panic.dart';
 import 'package:interrupt/widgets/primary_heading.dart';
 import 'package:interrupt/widgets/setting_component.dart';
 import 'package:provider/provider.dart';
 
-import '../provider/google_signin.dart';
-import '../widgets/primary_icon_button.dart';
+import '../../provider/google_signin.dart';
+import '../../widgets/primary_icon_button.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});

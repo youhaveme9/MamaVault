@@ -7,15 +7,15 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:interrupt/config/UI_constraints.dart';
-import 'package:interrupt/screens/doc_list.dart';
+import 'package:interrupt/screens/all_screens/doc_list.dart';
 import 'package:interrupt/widgets/expire_link.dart';
 import 'package:interrupt/widgets/primary_heading.dart';
 import 'package:interrupt/widgets/primary_icon_button.dart';
 import 'package:provider/provider.dart';
 import 'package:http/http.dart' as http;
 
-import '../config/date_formatter.dart';
-import '../provider/expire_provider.dart';
+import '../../config/date_formatter.dart';
+import '../../provider/expire_provider.dart';
 
 class Share extends StatefulWidget {
   const Share({super.key});

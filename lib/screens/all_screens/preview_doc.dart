@@ -6,8 +6,8 @@ import 'package:gallery_saver/gallery_saver.dart';
 import 'package:interrupt/widgets/primary_heading.dart';
 import 'package:pdf_render/pdf_render_widgets.dart';
 
-import '../config/UI_constraints.dart';
-import '../widgets/primary_button.dart';
+import '../../config/UI_constraints.dart';
+import '../../widgets/primary_button.dart';
 
 class PreviewDocScreen extends StatefulWidget {
   final String docName;

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:interrupt/screens/docs_gallery.dart';
-import 'package:interrupt/screens/settings.dart';
-import 'package:interrupt/screens/share.dart';
+import 'package:interrupt/screens/all_screens/docs_gallery.dart';
+import 'package:interrupt/screens/all_screens/settings.dart';
+import 'package:interrupt/screens/all_screens/share.dart';
 import 'package:provider/provider.dart';
-import '../provider/memory_timeline.dart';
-import '../provider/user_provider.dart';
-import '../provider/expire_provider.dart';
+import '../../provider/memory_timeline.dart';
+import '../../provider/user_provider.dart';
+import '../../provider/expire_provider.dart';
 
-import '../provider/verified_number_provider.dart';
+import '../../provider/verified_number_provider.dart';
 import 'dashboard.dart';
 
 class BottomNav extends StatefulWidget {

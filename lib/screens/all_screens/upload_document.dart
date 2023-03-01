@@ -13,9 +13,9 @@ import 'package:interrupt/widgets/primary_button.dart';
 import 'package:interrupt/widgets/primary_heading.dart';
 import 'package:provider/provider.dart';
 
-import '../config/color_pallete.dart';
-import '../provider/user_provider.dart';
-import '../widgets/custom_text_field.dart';
+import '../../config/color_pallete.dart';
+import '../../provider/user_provider.dart';
+import '../../widgets/custom_text_field.dart';
 
 class DocumentUpload extends StatefulWidget {
   const DocumentUpload({super.key});

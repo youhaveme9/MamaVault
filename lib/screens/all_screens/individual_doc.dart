@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:interrupt/screens/preview_doc.dart';
+import 'package:interrupt/screens/all_screens/preview_doc.dart';
 
-import '../config/color_pallete.dart';
+import '../../config/color_pallete.dart';
 
 // ignore: must_be_immutable
 class IndividualDoc extends StatefulWidget {

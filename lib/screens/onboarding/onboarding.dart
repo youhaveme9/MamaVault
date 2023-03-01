@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:interrupt/config/UI_constraints.dart';
-import 'package:interrupt/screens/signin_page.dart';
+import 'package:interrupt/screens/all_screens/signin_page.dart';
 import 'package:onboarding/onboarding.dart';
 
 import '../../config/color_pallete.dart';

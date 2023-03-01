@@ -8,14 +8,14 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:interrupt/config/date_formatter.dart';
 import 'package:interrupt/provider/user_provider.dart';
 import 'package:interrupt/screens/Panic%20Mode/panic_mode_timer.dart';
-import 'package:interrupt/screens/profile.dart';
-import 'package:interrupt/screens/upload_document.dart';
+import 'package:interrupt/screens/all_screens/profile.dart';
+import 'package:interrupt/screens/all_screens/upload_document.dart';
 import 'package:interrupt/widgets/primary_heading.dart';
 import 'package:interrupt/widgets/primary_icon_button.dart';
 import 'package:provider/provider.dart';
 
-import '../config/UI_constraints.dart';
-import '../config/color_pallete.dart';
+import '../../config/UI_constraints.dart';
+import '../../config/color_pallete.dart';
 import 'package:http/http.dart' as http;
 
 class DashboardScreen extends StatefulWidget {

@@ -8,7 +8,7 @@ import 'package:interrupt/provider/google_signin.dart';
 import 'package:interrupt/provider/memory_provider.dart';
 import 'package:interrupt/provider/user_provider.dart';
 import 'package:interrupt/provider/verified_number_provider.dart';
-import 'package:interrupt/screens/home_page.dart';
+import 'package:interrupt/screens/all_screens/home_page.dart';
 import 'package:interrupt/screens/onboarding/onboarding.dart';
 import 'package:interrupt/splash.dart';
 import 'package:provider/provider.dart';

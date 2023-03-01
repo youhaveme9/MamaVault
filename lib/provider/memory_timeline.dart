@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:interrupt/provider/memory_provider.dart';
-import 'package:interrupt/screens/memories_upload.dart';
+import 'package:interrupt/screens/all_screens/memories_upload.dart';
 import 'package:provider/provider.dart';
 
 import '../config/UI_constraints.dart';

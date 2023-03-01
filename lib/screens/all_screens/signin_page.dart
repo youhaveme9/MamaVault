@@ -4,11 +4,11 @@ import 'package:flutter_svg/svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:interrupt/config/color_pallete.dart';
-import 'package:interrupt/screens/home_page.dart';
+import 'package:interrupt/screens/all_screens/home_page.dart';
 import 'package:interrupt/widgets/primary_heading.dart';
 import 'package:interrupt/widgets/primary_icon_button.dart';
 import 'package:provider/provider.dart';
-import '../provider/google_signin.dart';
+import '../../provider/google_signin.dart';
 
 class SignInPage extends StatelessWidget {
   const SignInPage({super.key});
