@@ -7,7 +7,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:interrupt/config/date_formatter.dart';
 import 'package:interrupt/provider/user_provider.dart';
-import 'package:interrupt/screens/Panic%20Mode/panic_mode_timer.dart';
+import 'package:interrupt/screens/panic_mode/panic_mode_timer.dart';
 import 'package:interrupt/screens/all_screens/profile.dart';
 import 'package:interrupt/screens/all_screens/upload_document.dart';
 import 'package:interrupt/widgets/primary_heading.dart';

@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 
 import 'package:interrupt/config/UI_constraints.dart';
 import 'package:interrupt/config/color_pallete.dart';
-import 'package:interrupt/screens/Panic%20Mode/hospital_details.dart';
+import 'package:interrupt/screens/panic_mode/hospital_details.dart';
 import 'package:lottie/lottie.dart';
 import 'package:http/http.dart' as http;
 
