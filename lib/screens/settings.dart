@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 import 'package:interrupt/config/UI_constraints.dart';
 import 'package:interrupt/screens/Panic%20Mode/setup_panic.dart';
 import 'package:interrupt/widgets/primary_heading.dart';
