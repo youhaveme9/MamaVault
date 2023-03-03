@@ -44,7 +44,7 @@ class _PanicModeMessageScreenState extends State<PanicModeMessageScreen> {
       Navigator.push(
         context,
         CupertinoPageRoute(
-          builder: (_) => const HospitalDetails(),
+          builder: (_) => HospitalDetails(),
         ),
       );
     }
