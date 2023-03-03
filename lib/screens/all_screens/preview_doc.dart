@@ -50,7 +50,6 @@ class _PreviewDocScreenState extends State<PreviewDocScreen> {
                 widget.docType == 'image/jpeg'
                     ? Image.network(widget.docURL,
                         height: MediaQuery.of(context).size.height * 0.5)
-                    // : const Text('Any'),
                     : FutureBuilder<File>(
                         future:
                             DefaultCacheManager().getSingleFile(widget.docURL),
